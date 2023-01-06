@@ -1,0 +1,33 @@
+clear all
+
+clc
+
+
+% System Parameters
+
+Tss = 10e-6;           %Sampling time for our powergui
+
+f = 50;               % grid frequency 
+
+Vbase =  380;         % grid voltage
+
+fs = 99*f;            %  switching frequency
+
+Ts = 1/fs;            % Sampling time
+
+P = 50e3              % Inverter Size & PV array output
+
+% Filter Inductance Parameters
+
+Pbase = Vbase^2/P;
+
+RL = 1.5e-3 * Pbase;
+
+L = 0.15*Pbase/(2*pi*f);     % assuming total reactive power consumed by inductor = 0.15*Pbase
+
+% Filter Capacitor
+
+Qc = 0.15*P;
+Pc = 
+
+
