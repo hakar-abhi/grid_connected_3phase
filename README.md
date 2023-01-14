@@ -1,0 +1,1 @@
+# grid_connected_3phase contains extensive 50 kWp Solar Plant design project. It includes MPPT algorithm implemented in single power stage grid connection topology for 3 phase grid connection of PV plants. Details of project can be found in my website : <a href ="https://abhisekadhikari.com.np/pvproject/">Link</a>
